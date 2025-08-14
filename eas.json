@@ -1,0 +1,9 @@
+{
+  "cli": { "version": ">= 10.0.0" },
+  "build": {
+    "development": { "developmentClient": true, "distribution": "internal" },
+    "preview": { "android": { "buildType": "apk" }, "ios": { "simulator": true } },
+    "production": { "android": { "gradleCommand": ":app:bundleRelease" }, "ios": { "image": "latest" } }
+  },
+  "submit": { "production": {} }
+}

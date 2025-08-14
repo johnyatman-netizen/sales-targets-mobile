@@ -1,0 +1,21 @@
+{
+  "expo": {
+    "name": "Sales Targets",
+    "slug": "sales-targets-mobile",
+    "scheme": "salestargets",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": { "image": "./assets/splash.png", "resizeMode": "contain", "backgroundColor": "#ffffff" },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.raywhite.salestargets"
+    },
+    "android": {
+      "package": "com.raywhite.salestargets",
+      "adaptiveIcon": { "foregroundImage": "./assets/adaptive-icon.png", "backgroundColor": "#ffffff" }
+    },
+    "assetBundlePatterns": ["**/*"],
+    "updates": { "url": "https://u.expo.dev" }
+  }
+}
